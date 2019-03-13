@@ -44,7 +44,7 @@ dependencies are referenced by this repository as git submodules.
       ```
    1. Update Color Depth to be 1:
       ```c
-      #define LV_COLOR_DEPTH     1                     /*Color depth: 1/8/16/32*/
+      #define LV_COLOR_DEPTH     0                     /*Color depth: 1/8/16/32*/
       ```
 1. Make the following changes to `littlevLegatoComponent/littlevgl/lv_drv_conf.h`:
    1. At the top of the file, change the `#if 0` to `#if 1` to enable the file
